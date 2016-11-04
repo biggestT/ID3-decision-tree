@@ -17,9 +17,9 @@ function tree (D, t, A, l, aNames)
   
   ## Does all examples belong to one class?
   if trues == 0
-    disp([blanks(level) aNames{t}])
-  elseif falses == 0
     disp([blanks(level) 'not ' aNames{t}])
+  elseif falses == 0
+    disp([blanks(level) aNames{t}])
   
   ## Are we out of attributes?
   elseif length(A) == 0
