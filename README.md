@@ -7,7 +7,7 @@ Currently no penalty for multi-variate attributes so I suggest you only use bina
 ## Usage
 example.csv:
 ```
-happy,married,unemployed,alive
+happy,married,employed,alive
 0,0,0,1
 1,1,1,1
 0,1,0,1
