@@ -9,15 +9,15 @@ Example of using training data from example.csv with the first column as target 
 ``` bash
 octave-cli
 octave:1> id3('example.csv', 1, [2:4])
-employed value: 0 (70%)
-   rich value: 0 (57%)
+employed value: 0
+   rich value: 0
       not happy
-   rich value: 1 (86%)
-      married value: 0 (67%)
+   rich value: 1
+      married value: 0
          happy most likely (50%)
-      married value: 1 (67%)
+      married value: 1
          happy
-employed value: 1 (40%)
+employed value: 1
    not happy
 ```
 

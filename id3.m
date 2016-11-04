@@ -40,7 +40,7 @@ function tree (D, t, A, l, aNames)
       caVal = caVals(j);
       subD = D(D(:,a)==caVal,:);
       truesSubD = length(subD(subD(:,t)==1));
-      disp([blanks(level) aNames{a} ' value: ' num2str(caVal) ' (' sprintf('%2.0f',100*length(subD)/total) '%)']);
+      disp([blanks(level) aNames{a} ' value: ' num2str(caVal)]);
       if length(subD) == 0 
         disp('no more examples')
       else
